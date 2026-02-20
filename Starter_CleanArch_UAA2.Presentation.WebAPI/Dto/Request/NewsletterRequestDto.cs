@@ -18,3 +18,10 @@ public class NewsletterRequestDto
     [Required]
     public required bool IsDayFact { get; set; }
 }
+
+public class NewsletterRequestPatchDto
+{
+    public required bool? IsNews { get; set; }
+    public required bool? IsMonthly { get; set; }
+    public required bool? IsDayFact { get; set; }
+}

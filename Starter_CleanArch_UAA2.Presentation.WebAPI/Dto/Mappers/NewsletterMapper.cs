@@ -12,6 +12,7 @@ namespace Starter_CleanArch_UAA2.Presentation.WebAPI.Dto.Mappers
             return new NewsletterResponseDto()
             {
                 Id = data.Id,
+                Email = data.Email,
                 IsNews = data.IsNews,
                 IsMonthly = data.IsMonthly,
                 IsDayFact = data.IsDayFact
