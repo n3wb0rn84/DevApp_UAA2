@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Starter_CleanArch_UAA2.Domain\Starter_CleanArch_UAA2.Domain.csproj" />
+    <PackageReference Include="MailKit" Version="4.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Starter_CleanArch_UAA2.ApplicationCore\Starter_CleanArch_UAA2.ApplicationCore.csproj" />
   </ItemGroup>
 
 </Project>
