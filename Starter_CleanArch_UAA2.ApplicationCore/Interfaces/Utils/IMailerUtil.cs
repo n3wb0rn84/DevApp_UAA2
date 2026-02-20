@@ -7,5 +7,7 @@ namespace Starter_CleanArch_UAA2.ApplicationCore.Interfaces.Utils;
 
 public interface IMailerUtil
 {
-    void SendEmail(NewsletterSignUp newsletterSignUp);
+    void SendNewsEmail(NewsletterSignUp newsletterSignUp);
+
+    void SendResignEmail(NewsletterSignUp newsletterSignUp);
 }
